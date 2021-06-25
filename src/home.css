@@ -1,0 +1,9 @@
+.home{
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    text-align:center;
+    align-content: center;
+    width:80vw;
+    margin:0 2rem;
+    display: inline-block;
+    min-height:80vh;
+}

@@ -1,0 +1,35 @@
+.navbar *{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.navbar{
+    display:flex;
+    align-content: space-between;
+    padding:0 1em;
+    background:#a88adb;
+
+}
+.navbar .menu{
+    margin-left:auto;
+
+}
+.navbar .menu ul{
+    display:flex;
+    list-style-type: none;
+}
+.navbar .menu ul li{
+    align-content: space-around;
+    margin:0px 1rem;
+   
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar  a{
+    text-decoration: none;
+    color:black;
+}
+.navbar  a:hover{
+    color:#ffeeef;
+}

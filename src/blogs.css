@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.blogs{
+    padding: 2rem;
+}
+.blogs .blog{
+    margin-bottom: 2rem;
+    text-align: left;
+    display: flex;
+    font-family: 'Times New Roman','roboto','Helvatica', sans-serif;
+    cursor:pointer;
+    border:0.5px solid grey;
+    border-radius: 10px;
+    padding:1em;
+
+}
+.blogs .blog .article{
+    max-height:31vh;
+    overflow:hidden;
+}
+.blogs .thumbnail{
+    margin:0px;
+    padding:0px;
+    width:auto;
+    height:auto;
+    border-left:0.5px solid lightgrey;
+}
+.blog .author{
+    color:rgb(128, 128, 141);
+    text-decoration: none;
+}
+.blogs *{
+    font-size: 1.5rem;
+}
+.blog .title{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.blogs .blog:hover{
+    background: #ccedff;
+    transition: ease-out 0.3s;
+    border:none;
+}
+.blog-link a{
+    text-decoration: none;
+    color:initial;
+}
+.blog{
+    display:flex;
+    flex-flow:row nowrap;
+}
+.blog .contentSide{
+    flex:2;
+}
+.blog .thumbnail{
+    flex:1;
+}

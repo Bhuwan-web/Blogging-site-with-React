@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App header{
+  font-size: 3.5rem;
+}
+*::selection{
+  background-color: rgb(212, 212, 67);
+  color: black;
+}
+
+.App .appContainer{
+  margin-top:2em;
+}
+button[disabled]{
+  background-color: lightgrey;
+}

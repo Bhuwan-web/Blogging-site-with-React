@@ -1,0 +1,28 @@
+.full-blog{
+    max-width:700px;
+    margin:auto;
+    text-align:justify;
+    font-size:1.5rem;
+}
+.full-blog .blog-title{
+    text-align:center;
+    font-size: 3rem;
+}
+.full-blog .author{
+    color:rgb(174, 174, 182);
+    margin-bottom: 0.5em;
+}
+.full-blog button.delete{
+    font-size: 1.2rem;
+    margin-top:2em;
+    padding:0.56em 0.62em;
+    background-color: #f89456;
+    outline:none;
+    border:none;
+    border-radius: 0.2em;
+}
+.full-blog button.delete:hover{
+    background-color: #ff2525;
+    color:white;
+    transition:0.4s;
+}
